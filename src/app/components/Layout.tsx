@@ -42,19 +42,12 @@ export function Layout() {
       >
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex flex-col leading-none group">
-            <span
-              className="tracking-[0.35em] uppercase text-xs transition-colors duration-300"
-              style={{ color: 'var(--gold)', fontFamily: 'var(--font-body)', fontWeight: 300 }}
-            >
-              Aurora
-            </span>
-            <span
-              className="tracking-[0.12em] uppercase text-xl transition-colors duration-300"
-              style={{ fontFamily: 'var(--font-display)', fontWeight: 500, color: 'var(--cream)' }}
-            >
-              Skyline Hotel
-            </span>
+          <Link to="/" className="flex items-center leading-none group">
+            <img
+              src="https://i.ibb.co/WbrYmvV/designsite-logo-3-2x.png"
+              alt="designsite logo 3 2x"
+              style={{ height: 40, width: 'auto', display: 'block' }}
+            />
           </Link>
 
           {/* Desktop nav */}
