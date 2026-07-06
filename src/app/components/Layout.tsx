@@ -165,7 +165,7 @@ export function Layout() {
                 </span>
               </div>
               <p className="text-sm leading-relaxed mb-6" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
-                A design-forward five-star retreat above Cape Town's V&A Waterfront. Where contemporary African luxury meets the wild beauty of Table Mountain.
+                A design-forward five-star retreat above Swakopmund's historic Waterfront. Where contemporary African luxury meets the wild beauty of the Namib Dunes.
               </p>
               <div className="flex gap-4">
                 <a href="#" aria-label="Instagram" className="transition-colors duration-200 hover:text-[var(--gold)]" style={{ color: 'var(--cream-muted)' }}>
@@ -212,13 +212,13 @@ export function Layout() {
                 <li className="flex items-start gap-3">
                   <MapPin size={14} className="mt-0.5 shrink-0" style={{ color: 'var(--gold)' }} />
                   <span className="text-sm leading-relaxed" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
-                    V&A Waterfront, Cape Town<br />8001, South Africa
+                    Jetty Area, Swakopmund<br />9000, Namibia
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone size={14} className="shrink-0" style={{ color: 'var(--gold)' }} />
-                  <a href="tel:+27214001234" className="text-sm transition-colors hover:text-[var(--gold)]" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
-                    +27 21 400 1234
+                  <a href="tel:+26464400123" className="text-sm transition-colors hover:text-[var(--gold)]" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
+                    +264 64 400 123
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
@@ -239,7 +239,7 @@ export function Layout() {
                 Stay in Touch
               </h4>
               <p className="text-sm mb-4 leading-relaxed" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
-                Receive exclusive offers, seasonal packages, and curated Cape Town inspiration.
+                Receive exclusive offers, seasonal packages, and curated Namibian inspiration.
               </p>
               <form onSubmit={(e) => e.preventDefault()} className="flex flex-col gap-3">
                 <input

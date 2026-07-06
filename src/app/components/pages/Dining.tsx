@@ -41,22 +41,22 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 }
 
 const menuItems = [
-  { course: 'To Begin', name: 'West Coast Snoek Rillettes', note: 'Pickled cucumber, rye toast, crème fraîche, dill oil' },
+  { course: 'To Begin', name: 'Atlantic Snoek Rillettes', note: 'Pickled cucumber, rye toast, crème fraîche, dill oil' },
   { course: 'To Begin', name: 'Beet & Ricotta Tart', note: 'Hazelnuts, micro herbs, aged balsamic, truffle honey' },
-  { course: 'From the Sea', name: 'Grilled Kingklip', note: 'Saffron bouillabaisse, samphire, Paternoster mussels, rouille' },
-  { course: 'From the Sea', name: 'Cape Lobster Thermidor', note: 'Cognac cream, gruyère gratin, saffron risotto, herb salad' },
-  { course: 'From the Land', name: 'Karoo Lamb Saddle', note: 'Roasted root vegetables, quince jus, smoked labneh, lamb fat crouton' },
-  { course: 'From the Land', name: 'Free-Range Duck Breast', note: 'Waterblommetjie stew, pistachio dukkah, fig & port reduction' },
+  { course: 'From the Sea', name: 'Grilled Kingklip', note: 'Saffron bouillabaisse, samphire, Walvis Bay mussels, rouille' },
+  { course: 'From the Sea', name: 'Atlantic Rock Lobster Thermidor', note: 'Cognac cream, gruyère gratin, saffron risotto, herb salad' },
+  { course: 'From the Land', name: 'Kalahari Lamb Saddle', note: 'Roasted root vegetables, quince jus, smoked labneh, lamb fat crouton' },
+  { course: 'From the Land', name: 'Free-Range Duck Breast', note: 'Wild fig stew, pistachio dukkah, fig & port reduction' },
   { course: 'To Close', name: 'Malva Pudding', note: 'Amarula custard, naartjie sorbet, caramelised pecan' },
   { course: 'To Close', name: 'Chocolate Fondant', note: 'Valrhona 70%, sea salt caramel, vanilla bean ice cream' },
 ];
 
 const cocktails = [
-  { name: 'Boulders Sunset', base: 'Rum, passion fruit, lime, ginger beer, sea salt rim' },
-  { name: 'Cape Doctor', base: 'Cape Town gin, elderflower, cucumber, tonic, wild herbs' },
-  { name: 'Stellenbosch Sour', base: 'Pinotage brandy, lemon, egg white, aromatic bitters' },
-  { name: 'Signal Hill', base: 'Dark rum, Fynbos honey, smoked orange, sparkling wine' },
-  { name: 'Robben Blue', base: 'Vodka, blue pea flower, lychee, prosecco, rose water' },
+  { name: 'Pelican Point Sunset', base: 'Rum, passion fruit, lime, ginger beer, sea salt rim' },
+  { name: 'Namib Doctor', base: 'Swakopmund gin, elderflower, cucumber, tonic, wild herbs' },
+  { name: 'Swakop Valley Sour', base: 'Namibian brandy, lemon, egg white, aromatic bitters' },
+  { name: 'Spitzkoppe Sunset', base: 'Dark rum, Kalahari honey, smoked orange, sparkling wine' },
+  { name: 'Shark Island Blue', base: 'Vodka, blue pea flower, lychee, prosecco, rose water' },
   { name: 'Atlantic Breeze', base: 'Tequila, watermelon, fresh mint, agave, chilli salt rim' },
 ];
 
@@ -75,7 +75,7 @@ export function Dining() {
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 pb-16 w-full">
           <SectionLabel>Dining & Rooftop</SectionLabel>
           <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2.5rem, 6vw, 5rem)', color: 'var(--cream)', fontWeight: 500, lineHeight: 1.05 }}>
-            Taste the Cape.<br /><em>Savour the view.</em>
+            Taste the Dunes.<br /><em>Savour the view.</em>
           </h1>
         </div>
       </div>
@@ -92,13 +92,13 @@ export function Dining() {
               <GoldDivider />
               <SectionLabel>Aurora Restaurant</SectionLabel>
               <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem, 4vw, 3rem)', color: 'var(--cream)', fontWeight: 500, lineHeight: 1.1, marginBottom: '1.5rem' }}>
-                Where the Cape's<br /><em>larder meets the light.</em>
+                Where the ocean's<br /><em>larder meets the light.</em>
               </h2>
               <p className="leading-relaxed mb-6" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
-                Head Chef Sipho Dlamini sources from the Cape's extraordinary producers: daily-line fish from the West Coast, heritage vegetables from the Franschhoek Valley, wild foraged herbs from the Overberg. The menu shifts with the seasons, but the commitment to South Africa's extraordinary flavours remains constant.
+                Head Chef Sipho Dlamini sources from Namibia's extraordinary producers: daily-line fish from the West Coast, heritage vegetables from the Swakop Valley, wild foraged herbs from Damaraland. The menu shifts with the seasons, but the commitment to Namibia's extraordinary flavours remains constant.
               </p>
               <p className="leading-relaxed mb-8" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
-                An award-winning wine list celebrates over 300 South African labels, with sommelier-led pairings available for the full tasting experience.
+                An award-winning wine list celebrates over 300 Namibian and regional labels, with sommelier-led pairings available for the full tasting experience.
               </p>
               <div className="flex flex-wrap gap-6 mb-10">
                 <div className="flex items-center gap-2 text-sm" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
@@ -132,7 +132,7 @@ export function Dining() {
             <div className="grid grid-cols-2 gap-3">
               <img src={IMG_RESTAURANT} alt="Aurora Restaurant interior" className="w-full object-cover" style={{ aspectRatio: '3/4' }} />
               <div className="flex flex-col gap-3">
-                <img src={IMG_WINE} alt="South African wine selection" className="w-full object-cover" style={{ aspectRatio: '4/3', flex: 1 }} />
+                <img src={IMG_WINE} alt="Namibian wine selection" className="w-full object-cover" style={{ aspectRatio: '4/3', flex: 1 }} />
                 <img src={IMG_MENU} alt="Aurora restaurant table setting" className="w-full object-cover" style={{ aspectRatio: '4/3', flex: 1 }} />
               </div>
             </div>
@@ -186,7 +186,7 @@ export function Dining() {
               Sunset over the<br /><em>Atlantic, on repeat.</em>
             </h2>
             <p className="leading-relaxed mb-6" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
-              The 18th floor is Aurora's crown. An 18-metre infinity pool appears to spill over the city below, while the Sky Bar serves signature Cape cocktails as Table Mountain turns amber at dusk. Weekend evenings bring resident DJs who play into the Atlantic night.
+              The 18th floor is Aurora's crown. An 18-metre infinity pool appears to spill over the city below, while the Sky Bar serves signature Namibian cocktails as the Namib Dunes turn amber at dusk. Weekend evenings bring resident DJs who play into the Atlantic night.
             </p>
             <div className="flex items-center gap-2 text-sm mb-8" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
               <Clock size={14} style={{ color: 'var(--gold)' }} />
@@ -211,7 +211,7 @@ export function Dining() {
               <GoldDivider />
               <SectionLabel>Signature Cocktails</SectionLabel>
               <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', color: 'var(--cream)', fontWeight: 500, marginBottom: '2rem', lineHeight: 1.1 }}>
-                Cocktails rooted in<br /><em>Cape Town's soul.</em>
+                Cocktails rooted in<br /><em>Swakopmund's soul.</em>
               </h2>
               <div className="space-y-5">
                 {cocktails.map((c) => (

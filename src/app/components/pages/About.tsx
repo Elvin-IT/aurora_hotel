@@ -53,7 +53,7 @@ const sustainability = [
   {
     icon: <ShoppingBag size={22} />,
     title: 'Locally Sourced Produce',
-    desc: 'Over 85% of ingredients served in Aurora Restaurant and the Sky Bar come from within 250 km of Cape Town — from Paternoster fishers to Franschhoek Valley market gardeners to Overberg heritage grain farmers.',
+    desc: 'Over 85% of ingredients served in Aurora Restaurant and the Sky Bar come from within 250 km of Swakopmund — from Walvis Bay fishers to Swakop Valley market gardeners to Damaraland heritage grain farmers.',
   },
   {
     icon: <Leaf size={22} />,
@@ -63,8 +63,8 @@ const sustainability = [
 ];
 
 const values = [
-  { number: '01', title: 'Place', desc: 'Every design decision is rooted in Cape Town — its light, its landscapes, its living culture.' },
-  { number: '02', title: 'Craft', desc: 'We commission, collect, and collaborate with South African makers — artists, weavers, ceramicists, furniture builders.' },
+  { number: '01', title: 'Place', desc: 'Every design decision is rooted in Swakopmund — its light, its desert dunes, its living culture.' },
+  { number: '02', title: 'Craft', desc: 'We commission, collect, and collaborate with Namibian makers — artists, weavers, ceramicists, furniture builders.' },
   { number: '03', title: 'Restraint', desc: 'Luxury is not excess. It\'s the quality of a single perfect material, a view framed exactly right, a service offered before it\'s asked for.' },
   { number: '04', title: 'Responsibility', desc: 'We are guests in this city and this landscape. We take that seriously — environmentally, culturally, economically.' },
 ];
@@ -102,12 +102,12 @@ export function About() {
     <div style={{ background: 'var(--dark-1)' }}>
       {/* Hero */}
       <div className="relative flex items-end" style={{ height: '70vh', minHeight: '500px', background: '#0a0907' }}>
-        <img src={IMG_HERO} alt="Cape Town aerial panorama from above Table Mountain" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.5 }} />
+        <img src={IMG_HERO} alt="Swakopmund aerial panorama from above the Namib Dunes" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.5 }} />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(10,9,7,1) 0%, rgba(10,9,7,0.3) 65%)' }} />
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 pb-16 w-full">
           <SectionLabel>Our Story</SectionLabel>
           <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2.5rem, 6vw, 5rem)', color: 'var(--cream)', fontWeight: 500, lineHeight: 1.05 }}>
-            A love letter to<br /><em>Cape Town.</em>
+            A love letter to<br /><em>Swakopmund.</em>
           </h1>
         </div>
       </div>
@@ -128,20 +128,20 @@ export function About() {
               </h2>
               <div className="space-y-5" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
                 <p className="leading-relaxed">
-                  Aurora Skyline Hotel was conceived by Cape Town architect Nadia Fortuin and hotelier Tendai Mwangi as a response to a specific question: what would a truly South African luxury hotel look like — one that didn't borrow its language from Europe or Asia, but emerged entirely from this city and this continent?
+                  Aurora Skyline Hotel was conceived by Swakopmund architect Nadia Fortuin and hotelier Tendai Mwangi as a response to a specific question: what would a truly Namibian luxury hotel look like — one that didn't borrow its language from Europe or Asia, but emerged entirely from this country and this continent?
                 </p>
                 <p className="leading-relaxed">
-                  The answer, which opened in 2022, is a building wrapped in locally quarried sandstone, furnished in collaboration with over forty South African makers, and decorated with works selected from the country's most significant contemporary artists. The art rotates through a partnership with the Zeitz MOCAA — new works from the collection appear in Aurora's public spaces each quarter.
+                  The answer, which opened in 2022, is a building wrapped in locally quarried sandstone, furnished in collaboration with over forty Namibian makers, and decorated with works selected from the country's most significant contemporary artists. The art rotates through a partnership with the Woermannhaus Art Gallery — new works from the collection appear in Aurora's public spaces each quarter.
                 </p>
                 <p className="leading-relaxed">
-                  Every material tells a story of provenance: the woven rush matting from Zulu artisans in KwaZulu-Natal, the raw-edge timber tables from a Knysna Forest salvager, the handmade ceramic tableware from a Woodstock studio, the linen from a Swellendam flax farm. The hotel is, in a sense, a museum of contemporary South African making — one you can sleep in.
+                  Every material tells a story of provenance: the woven rush matting from Kavango artisans in Northern Namibia, the raw-edge timber tables from a Kalahari salvager, the handmade ceramic tableware from a Swakopmund studio, the linen from an Okavango cotton farm. The hotel is, in a sense, a museum of contemporary Namibian making — one you can sleep in.
                 </p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-3">
-              <img src={IMG_WATERFRONT} alt="V&A Waterfront Cape Town" className="w-full object-cover" style={{ aspectRatio: '3/4', gridRow: 'span 2' }} />
-              <img src={IMG_CAPE} alt="Cape Town city with Table Mountain" className="w-full object-cover" style={{ aspectRatio: '4/3' }} />
-              <img src={IMG_MOUNTAIN} alt="Cape Town mountain aerial" className="w-full object-cover" style={{ aspectRatio: '4/3' }} />
+              <img src={IMG_WATERFRONT} alt="Swakopmund Waterfront" className="w-full object-cover" style={{ aspectRatio: '3/4', gridRow: 'span 2' }} />
+              <img src={IMG_CAPE} alt="Swakopmund city with Namib Dunes" className="w-full object-cover" style={{ aspectRatio: '4/3' }} />
+              <img src={IMG_MOUNTAIN} alt="Swakopmund dunes aerial" className="w-full object-cover" style={{ aspectRatio: '4/3' }} />
             </div>
           </div>
         </div>
@@ -188,10 +188,10 @@ export function About() {
                 Built to belong<br /><em>to this place.</em>
               </h2>
               <p className="leading-relaxed mb-6" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
-                Cape Town is one of the world's most biologically diverse cities, built beside one of the world's most threatened coastlines, in a country managing severe water scarcity. For Aurora, sustainability is not marketing — it is an obligation that comes with the address.
+                Swakopmund is situated beside the Namib-Naukluft park, built where one of the world's oldest deserts meets a rich marine coastline. For Aurora, sustainability is not marketing — it is an obligation that comes with the address.
               </p>
               <p className="leading-relaxed" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
-                We publish an annual sustainability report, audit our supply chain against ILO labour standards, and allocate 2% of net room revenue to the Aurora Community Foundation — supporting education and skills development in Cape Town's townships.
+                We publish an annual sustainability report, audit our supply chain against ILO labour standards, and allocate 2% of net room revenue to the Aurora Community Foundation — supporting education and skills development in Swakopmund's Mondesa community.
               </p>
             </div>
             <div className="space-y-4">
@@ -203,7 +203,7 @@ export function About() {
 
       {/* Vineyard image + CTA */}
       <section className="relative py-28 overflow-hidden" style={{ minHeight: '400px' }}>
-        <img src={IMG_VINEYARD} alt="Cape Winelands rolling hills" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.4 }} />
+        <img src={IMG_VINEYARD} alt="Sossusvlei desert dunes" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.4 }} />
         <div className="absolute inset-0" style={{ background: 'rgba(10,9,7,0.65)' }} />
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
           <GoldDivider />

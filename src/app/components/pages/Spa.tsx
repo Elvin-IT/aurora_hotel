@@ -40,10 +40,10 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 }
 
 const treatments = [
-  { name: 'Cape Citrus Awakening', duration: '60 min', desc: 'Full-body exfoliation with rooibos sugar scrub, followed by an invigorating citrus oil massage.' },
-  { name: 'Fynbos Stone Ritual', duration: '90 min', desc: 'Warm basalt stones combined with indigenous fynbos essential oils. Deep tissue release with a grounding finish.' },
-  { name: 'Atlantic Detox Wrap', duration: '75 min', desc: 'Marine algae body wrap drawing on the Cape\'s seaweed heritage. Remineralising, rehydrating, renewing.' },
-  { name: 'Table Mountain Facial', duration: '75 min', desc: 'A results-driven treatment using botanical extracts sourced from the Cape Floral Kingdom. Customised to your skin.' },
+  { name: 'Namib Myrrh Awakening', duration: '60 min', desc: 'Full-body exfoliation with Nara seed scrub, followed by an invigorating desert myrrh oil massage.' },
+  { name: 'Desert Stone Ritual', duration: '90 min', desc: 'Warm basalt stones combined with indigenous Kalahari essential oils. Deep tissue release with a grounding finish.' },
+  { name: 'Atlantic Detox Wrap', duration: '75 min', desc: 'Marine algae body wrap drawing on the Atlantic\'s rich seaweed heritage. Remineralising, rehydrating, renewing.' },
+  { name: 'Spitzkoppe Floral Facial', duration: '75 min', desc: 'A results-driven treatment using botanical extracts sourced from the Namib Desert Flora. Customised to your skin.' },
   { name: 'Couples\' Sanctuary Ritual', duration: '120 min', desc: 'A private two-room experience with side-by-side treatments, a shared champagne bath, and harbour sunset views.' },
   { name: 'Executive Recharge', duration: '45 min', desc: 'Designed for business travellers: neck and shoulder massage, express facial, and scalp treatment. In and out, transformed.' },
 ];
@@ -107,10 +107,10 @@ export function Spa() {
               <GoldDivider />
               <SectionLabel>Aurora Spa</SectionLabel>
               <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.75rem, 3.5vw, 2.75rem)', color: 'var(--cream)', fontWeight: 500, lineHeight: 1.15, marginBottom: '1.5rem' }}>
-                Botanicals of the<br /><em>Cape Floral Kingdom.</em>
+                Botanicals of the<br /><em>Namib Desert Flora.</em>
               </h2>
               <p className="leading-relaxed mb-5" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
-                Aurora Spa occupies an entire floor suspended above the harbour. Treatment rooms face the water, so each session unfolds against the movement of light on the Atlantic. Indigenous plant extracts — rooibos, buchu, fynbos — form the basis of our bespoke treatment philosophy.
+                Aurora Spa occupies an entire floor suspended above the harbour. Treatment rooms face the water, so each session unfolds against the movement of light on the Atlantic. Indigenous plant extracts — Kalahari melon, devil's claw, desert myrrh — form the basis of our bespoke treatment philosophy.
               </p>
               <p className="leading-relaxed mb-8" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
                 The facility includes eight treatment rooms, two couples' suites, a steam sanctuary, a cold plunge pool, a movement studio, and a quiet rest lounge with complementary herbal tea service.
@@ -149,7 +149,7 @@ export function Spa() {
           <div className="text-center mb-14">
             <SectionLabel>Our Treatments</SectionLabel>
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--cream)', fontWeight: 500 }}>
-              Rituals inspired by<br /><em>the Cape's natural heritage.</em>
+              Rituals inspired by<br /><em>the Atlantic's natural heritage.</em>
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -171,7 +171,7 @@ export function Spa() {
 
       {/* Yoga / rooftop movement */}
       <section className="relative py-32 overflow-hidden" style={{ minHeight: '500px' }}>
-        <img src={IMG_MOUNTAIN} alt="Table Mountain sunrise from rooftop yoga studio" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.45 }} />
+        <img src={IMG_MOUNTAIN} alt="Spitzkoppe sunrise from rooftop yoga studio" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.45 }} />
         <div className="absolute inset-0" style={{ background: 'rgba(10,9,7,0.6)' }} />
         <div
           ref={yogaRef}
@@ -181,10 +181,10 @@ export function Spa() {
           <GoldDivider />
           <SectionLabel>Rooftop Movement Studio</SectionLabel>
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem, 4vw, 3.5rem)', color: 'var(--cream)', fontWeight: 500, lineHeight: 1.1, marginBottom: '1.5rem', maxWidth: '700px', margin: '0 auto 1.5rem' }}>
-            Sunrise yoga above<br /><em>Table Mountain.</em>
+            Sunrise yoga above<br /><em>the Namib Dunes.</em>
           </h2>
           <p className="max-w-lg mx-auto leading-relaxed mb-8" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
-            Our 18th-floor movement studio opens onto the rooftop terrace. Daily sunrise yoga, meditation sessions, and private Pilates instruction are available — with Table Mountain as your backdrop.
+            Our 18th-floor movement studio opens onto the rooftop terrace. Daily sunrise yoga, meditation sessions, and private Pilates instruction are available — with the Namib Dunes as your backdrop.
           </p>
           <div className="flex flex-wrap justify-center gap-6 text-sm" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
             {['Sunrise Yoga — 06:30 daily', 'Guided Meditation — 07:30 Tue & Thu', 'Private Pilates — by arrangement', 'Sound Bath — Sat 08:00'].map((s) => (
@@ -201,7 +201,7 @@ export function Spa() {
       <section className="py-20">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-0" style={{ border: '1px solid rgba(201,169,110,0.15)' }}>
-            <img src={IMG_VINEYARD} alt="Stellenbosch winelands" className="w-full object-cover" style={{ aspectRatio: '16/9', maxHeight: '400px' }} />
+            <img src={IMG_VINEYARD} alt="Sossusvlei desert dunes" className="w-full object-cover" style={{ aspectRatio: '16/9', maxHeight: '400px' }} />
             <div className="flex flex-col justify-center p-12 lg:p-16" style={{ background: 'var(--dark-2)' }}>
               <GoldDivider />
               <SectionLabel>Wellness Packages</SectionLabel>
@@ -209,7 +209,7 @@ export function Spa() {
                 Extended spa stays<br /><em>&amp; retreat packages.</em>
               </h3>
               <p className="mb-6 leading-relaxed text-sm" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
-                Combine accommodation with a bespoke wellness programme — or extend your stay with a Cape Winelands spa excursion to Franschhoek. Our concierge team will build the itinerary around you.
+                Combine accommodation with a bespoke wellness programme — or extend your stay with a desert dunes spa excursion to Sossusvlei. Our concierge team will build the itinerary around you.
               </p>
               <button
                 onClick={() => navigate('/contact')}

@@ -112,7 +112,7 @@ export function Contact() {
     <div style={{ background: 'var(--dark-1)' }}>
       {/* Hero */}
       <div className="relative flex items-end" style={{ height: '60vh', minHeight: '420px', background: '#0a0907' }}>
-        <img src={IMG_HERO} alt="Cape Town city and V&A Waterfront aerial" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.5 }} />
+        <img src={IMG_HERO} alt="Swakopmund city and historic Waterfront aerial" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.5 }} />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(10,9,7,1) 0%, rgba(10,9,7,0.3) 65%)' }} />
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 pb-16 w-full">
           <SectionLabel>Contact & Location</SectionLabel>
@@ -131,7 +131,7 @@ export function Contact() {
               <div>
                 <div className="text-xs tracking-[0.15em] uppercase mb-1" style={{ color: 'var(--gold)', fontFamily: 'var(--font-body)' }}>Address</div>
                 <div className="text-sm leading-relaxed" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
-                  1 Dock Road, V&A Waterfront<br />Cape Town, 8001<br />South Africa
+                  1 Arnold Schad Promenade<br />Swakopmund, 9000<br />Namibia
                 </div>
               </div>
             </div>
@@ -139,8 +139,8 @@ export function Contact() {
               <Phone size={20} className="shrink-0 mt-0.5" style={{ color: 'var(--gold)' }} />
               <div>
                 <div className="text-xs tracking-[0.15em] uppercase mb-1" style={{ color: 'var(--gold)', fontFamily: 'var(--font-body)' }}>Phone</div>
-                <div className="text-sm" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>+27 21 400 1234</div>
-                <div className="text-sm mt-1" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>WhatsApp: +27 82 400 1234</div>
+                <div className="text-sm" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>+264 64 400 1234</div>
+                <div className="text-sm mt-1" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>WhatsApp: +264 81 400 1234</div>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -234,7 +234,7 @@ export function Contact() {
                     Send Message
                   </button>
                   <p className="text-xs" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
-                    For urgent assistance, call our reservations team at +27 21 400 1234 (24 hours).
+                    For urgent assistance, call our reservations team at +264 64 400 1234 (24 hours).
                   </p>
                 </form>
               )}
@@ -246,16 +246,16 @@ export function Contact() {
                 <h3 style={{ fontFamily: 'var(--font-display)', color: 'var(--cream)', fontSize: '1.15rem', fontWeight: 500, marginBottom: '1rem' }}>Getting Here</h3>
                 <div className="space-y-3 text-sm" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
                   <div>
-                    <span style={{ color: 'var(--gold)' }}>By Car:</span> 20 minutes from Cape Town International Airport (N2 highway). Valet parking available.
+                    <span style={{ color: 'var(--gold)' }}>By Car:</span> 30 minutes from Walvis Bay International Airport. Valet parking available.
                   </div>
                   <div>
                     <span style={{ color: 'var(--gold)' }}>By Shuttle:</span> Aurora offers a complimentary airport shuttle for stays of 3+ nights. Book at reservation.
                   </div>
                   <div>
-                    <span style={{ color: 'var(--gold)' }}>On Foot:</span> 5 minutes from the V&A Waterfront Clock Tower. Walking distance from the Cape Town CBD.
+                    <span style={{ color: 'var(--gold)' }}>On Foot:</span> 2 minutes from the Swakopmund Jetty. Walking distance from the Swakopmund CBD.
                   </div>
                   <div>
-                    <span style={{ color: 'var(--gold)' }}>By MyCiTi:</span> Portswood Road stop, 3 minutes' walk.
+                    <span style={{ color: 'var(--gold)' }}>By Shuttle:</span> Hotel town transfer, 3 minutes' drive.
                   </div>
                 </div>
               </div>
@@ -264,13 +264,13 @@ export function Contact() {
                 <h3 style={{ fontFamily: 'var(--font-display)', color: 'var(--cream)', fontSize: '1.15rem', fontWeight: 500, marginBottom: '1rem' }}>Nearby</h3>
                 <div className="space-y-2 text-sm" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
                   {[
-                    ['V&A Waterfront', '5 min walk'],
-                    ['Cape Town CBD', '10 min drive'],
-                    ['Zeitz MOCAA', '3 min walk'],
-                    ['Table Mountain Cable Car', '15 min drive'],
-                    ['Boulders Penguin Beach', '45 min drive'],
-                    ['Stellenbosch Winelands', '40 min drive'],
-                    ['Cape International Airport', '20 min drive'],
+                    ['Swakopmund Waterfront', '5 min walk'],
+                    ['Swakopmund CBD', '10 min drive'],
+                    ['Woermannhaus Art Gallery', '3 min walk'],
+                    ['Namib Dunes Excursion', '15 min drive'],
+                    ['Cape Cross Seal Colony', '50 min drive'],
+                    ['Pelican Point Lagoon', '35 min drive'],
+                    ['Walvis Bay Airport', '30 min drive'],
                   ].map(([place, time]) => (
                     <div key={place} className="flex justify-between">
                       <span>{place}</span>
@@ -284,11 +284,11 @@ export function Contact() {
                 <h3 style={{ fontFamily: 'var(--font-display)', color: 'var(--cream)', fontSize: '1.15rem', fontWeight: 500, marginBottom: '1rem' }}>Hotel Contacts</h3>
                 <div className="space-y-3 text-sm" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>
                   {[
-                    ['Reservations', '+27 21 400 1234'],
-                    ['Concierge', '+27 21 400 1235'],
-                    ['Spa', '+27 21 400 1240'],
-                    ['Events', '+27 21 400 1250'],
-                    ['Restaurant', '+27 21 400 1260'],
+                    ['Reservations', '+264 64 400 1234'],
+                    ['Concierge', '+264 64 400 1235'],
+                    ['Spa', '+264 64 400 1240'],
+                    ['Events', '+264 64 400 1250'],
+                    ['Restaurant', '+264 64 400 1260'],
                   ].map(([dept, number]) => (
                     <div key={dept} className="flex justify-between">
                       <span>{dept}</span>
@@ -316,9 +316,9 @@ export function Contact() {
           <div className="text-center relative z-10">
             <MapPin size={32} className="mx-auto mb-3" style={{ color: 'var(--gold)' }} />
             <div style={{ fontFamily: 'var(--font-display)', color: 'var(--cream)', fontSize: '1.25rem', fontWeight: 500 }}>Aurora Skyline Hotel</div>
-            <div className="mt-1 text-sm" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>1 Dock Road, V&A Waterfront, Cape Town</div>
+            <div className="mt-1 text-sm" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)' }}>1 Arnold Schad Promenade, Swakopmund, Namibia</div>
             <a
-              href="https://maps.google.com/?q=V+A+Waterfront+Cape+Town"
+              href="https://maps.google.com/?q=Swakopmund+Jetty+Namibia"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4 px-6 py-2.5 text-xs tracking-[0.15em] uppercase transition-all duration-300 hover:bg-[var(--gold)] hover:text-[var(--dark-1)]"

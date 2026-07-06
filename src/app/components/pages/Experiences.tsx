@@ -43,47 +43,47 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 const experiences = [
   {
     img: IMG_VINEYARD,
-    label: 'Half Day · Private',
-    title: 'Cape Winelands Private Tour',
-    duration: '5–7 hours',
+    label: 'Full Day · Private Fly-In',
+    title: 'Sossusvlei Desert Dunes Excursion',
+    duration: '6–8 hours',
     guests: 'Up to 6 guests',
-    desc: 'A curated morning among the vineyards of Stellenbosch, Franschhoek, and Paarl. Your Aurora guide takes you beyond the tasting rooms to meet winemakers, explore historic Cape Dutch estates, and enjoy a private cellar lunch paired with reserve wines. Return by late afternoon for sunset cocktails on the 18th floor.',
-    highlight: 'Private sommelier guide · Cellar access · Artisan lunch included',
+    desc: 'A curated private flight and morning among the towering red dunes of Sossusvlei and Deadvlei. Your Aurora guide takes you beyond the usual pathways to climb Big Daddy, explore the ancient clay pan, and enjoy a private dune-side lunch paired with reserve Namibian estate wines. Return by late afternoon for sunset cocktails on the 18th floor.',
+    highlight: 'Private fly-in safari · Dune access · Gourmet desert lunch included',
   },
   {
     img: IMG_MOUNTAIN,
     label: 'Early Morning · Small Group',
-    title: 'Table Mountain Sunrise Hike',
+    title: 'Spitzkoppe Peak Sunrise Hike',
     duration: '3–4 hours',
     guests: '2–8 guests',
-    desc: 'Depart the hotel at 05:00 for the Platteklip Gorge ascent, arriving at the summit as Cape Town\'s light turns from indigo to gold. An Aurora naturalist guide shares the mountain\'s geology, indigenous fynbos flora, and the panoramic geography below. Post-hike breakfast at the hotel awaits on your return.',
-    highlight: 'Expert naturalist guide · Post-hike breakfast · Hotel transfer included',
+    desc: 'Depart the hotel at 05:00 for the iconic Spitzkoppe granite peaks, arriving at the base as the Namibian sky turns from indigo to gold. An Aurora naturalist guide shares the mountain\'s geological history, ancient San rock art, and the panoramic desert views. Post-hike breakfast at the hotel awaits on your return.',
+    highlight: 'Expert naturalist guide · San rock art viewing · Hotel transfer included',
   },
   {
     img: IMG_CAPE,
     label: 'Full Day',
-    title: 'Cape Point Day Trip',
+    title: 'Pelican Point & Sandwich Harbour Tour',
     duration: '8–9 hours',
     guests: 'Up to 8 guests',
-    desc: 'Travel the Cape Peninsula — past Hout Bay\'s fishing harbour, Chapman\'s Peak\'s cliff road, Boulders Beach\'s African penguin colony, and to the dramatic headlands of the Cape of Good Hope. A private Mercedes minibus, a gourmet picnic, and insider access throughout.',
-    highlight: 'Private vehicle & guide · Penguin colony visit · Gourmet picnic',
+    desc: 'Travel the dramatic Namib coast — past Walvis Bay lagoon\'s flamingos, Pelican Point\'s lighthouse, and to Sandwich Harbour where giant dunes plunge straight into the Atlantic Ocean. A private 4x4 vehicle, a gourmet beach picnic, and insider access throughout.',
+    highlight: 'Private 4x4 dune drive · Flamingos & seal colonies · Gourmet beach picnic',
   },
   {
     img: IMG_HARBOR,
     label: 'Afternoon · Private',
-    title: 'Waterfront & V&A Art Circuit',
+    title: 'Swakopmund Heritage & Art Circuit',
     duration: '3–4 hours',
     guests: '2–4 guests',
-    desc: 'Cape Town\'s contemporary art scene is one of Africa\'s most vibrant. An Aurora cultural guide leads a curated walk through Zeitz MOCAA, selected Woodstock studios, and independent galleries — with introductions to artists where possible. Ends with a gallery sundowner.',
-    highlight: 'Art historian guide · Studio access · Zeitz MOCAA priority entry',
+    desc: 'Swakopmund\'s contemporary art scene is one of Namibia\'s most vibrant. An Aurora cultural guide leads a curated walk through local galleries, selected Swakopmund creative studios, and the Swakopmund Museum — with introductions to artists where possible. Ends with a gallery sundowner.',
+    highlight: 'Art historian guide · Studio access · Gallery priority entry',
   },
   {
     img: IMG_VINEYARD2,
-    label: 'Full Day · Immersive',
-    title: 'Township Cultural Immersion',
-    duration: '6–7 hours',
+    label: 'Half Day · Immersive',
+    title: 'Mondesa Cultural Immersion',
+    duration: '4–5 hours',
     guests: '2–6 guests',
-    desc: 'An ethical, community-led experience in Langa and Khayelitsha — South Africa\'s oldest and largest townships. Meet community leaders, artists, and entrepreneurs shaping the new Cape Town. Lunch at a neighbourhood home restaurant. Guided by local residents. Sensitive, considered, unforgettable.',
+    desc: 'An ethical, community-led experience in Mondesa — Swakopmund\'s vibrant township. Meet community leaders, artists, and entrepreneurs shaping the local culture. Lunch at a neighbourhood home restaurant. Guided by local residents. Sensitive, considered, unforgettable.',
     highlight: 'Local community guides · Home restaurant lunch · Zero-commission model — proceeds direct to guides',
   },
   {
@@ -92,7 +92,7 @@ const experiences = [
     title: 'Private Sunset Harbour Cruise',
     duration: '2–3 hours',
     guests: '2–10 guests',
-    desc: 'Board a private 40-foot sailing yacht from the V&A Waterfront and slip into the Atlantic for a golden hour unlike any other. Table Mountain behind you, Robben Island ahead, and Cape Town\'s light turning amber as the sun drops. Champagne and Cape seafood on board.',
+    desc: 'Board a private 40-foot sailing yacht from the Swakopmund Waterfront and slip into the Atlantic for a golden hour unlike any other. Pelican Point behind you, the desert coast ahead, and the sky turning amber as the sun drops. Champagne and fresh Atlantic seafood on board.',
     highlight: 'Private yacht · Champagne & seafood · Professional skipper',
   },
 ];
@@ -176,12 +176,12 @@ export function Experiences() {
     <div style={{ background: 'var(--dark-1)' }}>
       {/* Hero */}
       <div className="relative flex items-end" style={{ height: '70vh', minHeight: '500px', background: '#0a0907' }}>
-        <img src={IMG_HERO} alt="Cape Town mountain aerial view" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.5 }} />
+        <img src={IMG_HERO} alt="Namib dunes aerial view" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.5 }} />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(10,9,7,1) 0%, rgba(10,9,7,0.3) 65%)' }} />
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 pb-16 w-full">
           <SectionLabel>Experiences</SectionLabel>
           <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2.5rem, 6vw, 5rem)', color: 'var(--cream)', fontWeight: 500, lineHeight: 1.05 }}>
-            Cape Town, curated<br /><em>for you alone.</em>
+            Swakopmund, curated<br /><em>for you alone.</em>
           </h1>
         </div>
       </div>
@@ -195,7 +195,7 @@ export function Experiences() {
         >
           <GoldDivider />
           <p className="leading-relaxed" style={{ fontFamily: 'var(--font-body)', fontWeight: 300, color: 'var(--cream-muted)', fontSize: '1.1rem' }}>
-            Aurora Concierge is more than a bookings desk — it is a team of Cape Town obsessives who know which winemaker to call for a private cellar Saturday, which trail glows at sunrise, and which township chef is cooking the meal of the year. They build custom itineraries before you arrive, and adapt them the moment your plans change.
+            Aurora Concierge is more than a bookings desk — it is a team of Swakopmund obsessives who know which desert pilot to call for a private fly-in Saturday, which trail glows at sunrise, and which local chef is cooking the meal of the year. They build custom itineraries before you arrive, and adapt them the moment your plans change.
           </p>
         </div>
       </section>

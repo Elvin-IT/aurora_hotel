@@ -45,7 +45,7 @@ const rooms = [
     name: 'Skyline Room',
     category: 'Superior Room',
     size: '38 m²',
-    from: 'From R 6,500 / night',
+    from: 'From N$ 6,500 / night',
     desc: 'Oriented toward the Atlantic and the harbour lights, the Skyline Room is a study in warm restraint. Floor-to-ceiling glazing brings the city indoors, while hand-loomed textiles and Ethiopian stone surfaces keep the feel grounded and intimate.',
     amenities: ['Harbour & city view', 'King or twin beds', 'Rain shower', 'Nespresso & curated mini bar', 'Smart lighting control', 'Work desk with dual monitors'],
   },
@@ -54,16 +54,16 @@ const rooms = [
     name: 'Mountain View Room',
     category: 'Deluxe Room',
     size: '42 m²',
-    from: 'From R 7,800 / night',
-    desc: "Wake to Table Mountain filling your window — its moods shift from morning mist to golden afternoon light to deep violet at dusk. Natural linen, raw brass fixtures, and woven Zulu rush matting honour the landscape outside.",
-    amenities: ['Unobstructed Table Mountain view', 'King bed', 'Deep soaking tub + rain shower', 'Nespresso & curated mini bar', 'Bluetooth sound system', 'Complimentary mountain guide book'],
+    from: 'From N$ 7,800 / night',
+    desc: "Wake to the Namib Dunes filling your window — its moods shift from morning mist to golden afternoon light to deep violet at dusk. Natural linen, raw brass fixtures, and woven Kavango rush matting honour the landscape outside.",
+    amenities: ['Unobstructed Namib Dunes view', 'King bed', 'Deep soaking tub + rain shower', 'Nespresso & curated mini bar', 'Bluetooth sound system', 'Complimentary desert guide book'],
   },
   {
     img: IMG_SUITE,
     name: 'Junior Suite',
     category: 'Suite',
     size: '62 m²',
-    from: 'From R 11,200 / night',
+    from: 'From N$ 11,200 / night',
     desc: 'A separate living room with a reclaimed teak day bed, a private bar, and dual aspects across the mountain and waterfront. The Junior Suite is for those who want the city at arm\'s length and comfort at their fingertips.',
     amenities: ['Dual-aspect panoramic views', 'Separate living room', 'King bed + day bed', 'Freestanding bath + rain shower', 'Private bar & Nespresso', 'Aurora amenity kit', 'Priority room service'],
   },
@@ -72,8 +72,8 @@ const rooms = [
     name: 'Aurora Penthouse',
     category: 'Signature Suite',
     size: '140 m²',
-    from: 'From R 28,500 / night',
-    desc: 'The pinnacle of Aurora. A two-bedroom private penthouse on the 17th floor with a wraparound terrace, a private plunge pool, a chef\'s pantry, and direct lift access. Table Mountain, the harbour, and the Atlantic at once — and yours alone.',
+    from: 'From N$ 28,500 / night',
+    desc: 'The pinnacle of Aurora. A two-bedroom private penthouse on the 17th floor with a wraparound terrace, a private plunge pool, a chef\'s pantry, and direct lift access. The Namib Dunes, the harbour, and the Atlantic at once — and yours alone.',
     amenities: ['Wraparound private terrace', 'Private plunge pool', 'Two king bedrooms', 'Chef\'s pantry', 'Full butler service', 'In-suite spa treatments on request', 'Private car & driver included'],
   },
 ];
@@ -180,7 +180,7 @@ export function Rooms() {
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 pb-16 w-full">
           <SectionLabel>Rooms & Suites</SectionLabel>
           <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2.5rem, 6vw, 5rem)', color: 'var(--cream)', fontWeight: 500, lineHeight: 1.05 }}>
-            Your private<br /><em>Cape Town sanctuary.</em>
+            Your private<br /><em>Swakopmund sanctuary.</em>
           </h1>
         </div>
       </div>
@@ -194,7 +194,7 @@ export function Rooms() {
         >
           <GoldDivider />
           <p className="leading-relaxed" style={{ fontFamily: 'var(--font-body)', fontWeight: 300, color: 'var(--cream-muted)', fontSize: '1.1rem' }}>
-            Each of our seventy-two rooms and suites is shaped around a calm, residential sensibility. Natural materials — Ethiopian volcanic stone, reclaimed timber, hand-woven South African textiles — are paired with intuitive smart technology. The result is a retreat that feels genuinely restful, not performatively luxurious.
+            Each of our seventy-two rooms and suites is shaped around a calm, residential sensibility. Natural materials — Ethiopian volcanic stone, reclaimed timber, hand-woven Namibian textiles — are paired with intuitive smart technology. The result is a retreat that feels genuinely restful, not performatively luxurious.
           </p>
         </div>
       </section>

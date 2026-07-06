@@ -43,22 +43,22 @@ const venues = [
     name: 'The Boardroom',
     capacity: 'Up to 18',
     size: '68 m²',
-    desc: 'A private, panelled room on the 5th floor with integrated AV, a dedicated barista station, and a long executive table in reclaimed teak. Floor-to-ceiling windows look directly onto Table Mountain.',
-    features: ['Integrated 85" display', 'Video conferencing suite', 'Barista on request', 'Direct Mountain view', 'Breakout terrace'],
+    desc: 'A private, panelled room on the 5th floor with integrated AV, a dedicated barista station, and a long executive table in reclaimed teak. Floor-to-ceiling windows look directly onto the Namib Dunes.',
+    features: ['Integrated 85" display', 'Video conferencing suite', 'Barista on request', 'Direct Dunes view', 'Breakout terrace'],
   },
   {
     name: 'The Gallery',
     capacity: 'Up to 60',
     size: '210 m²',
-    desc: 'A flexible event space on the 4th floor with polished concrete floors, rotating works from South African artists, and full natural light through a glazed north wall. Theatre, banquet, or cocktail configurations.',
-    features: ['Three configurations available', 'Audiovisual production support', 'Natural daylight', 'South African art collection', 'Adjacent catering kitchen'],
+    desc: 'A flexible event space on the 4th floor with polished concrete floors, rotating works from Namibian artists, and full natural light through a glazed north wall. Theatre, banquet, or cocktail configurations.',
+    features: ['Three configurations available', 'Audiovisual production support', 'Natural daylight', 'Namibian art collection', 'Adjacent catering kitchen'],
   },
   {
     name: 'The Rooftop Terrace',
     capacity: 'Up to 120',
     size: '420 m²',
-    desc: 'The 18th-floor terrace — ordinarily home to the Sky Bar and infinity pool — can be exclusively privatised for cocktail receptions, intimate ceremonies, and al fresco dinners. Table Mountain and harbour views at every angle.',
-    features: ['Exclusive venue hire', '360° city & mountain views', 'Adjacent Sky Bar for cocktail service', 'Sunset ceremony packages', 'Custom lighting & décor'],
+    desc: 'The 18th-floor terrace — ordinarily home to the Sky Bar and infinity pool — can be exclusively privatised for cocktail receptions, intimate ceremonies, and al fresco dinners. The Namib Dunes and harbour views at every angle.',
+    features: ['Exclusive venue hire', '360° city & dunes views', 'Adjacent Sky Bar for cocktail service', 'Sunset ceremony packages', 'Custom lighting & décor'],
   },
   {
     name: 'The Grand Ballroom',
@@ -170,7 +170,7 @@ export function Events() {
                 Every gathering,<br /><em>shaped to your vision.</em>
               </h2>
               <p className="leading-relaxed mb-5" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
-                Aurora offers four distinct event spaces — from intimate boardrooms to a 580 m² grand ballroom — each designed with the same commitment to craft that defines our guest rooms. Natural light, views of Table Mountain, and South Africa's most sophisticated catering team make Aurora Cape Town's premier event destination.
+                Aurora offers four distinct event spaces — from intimate boardrooms to a 580 m² grand ballroom — each designed with the same commitment to craft that defines our guest rooms. Natural light, views of the Namib Dunes, and Namibia's most sophisticated catering team make Aurora Swakopmund's premier event destination.
               </p>
               <p className="leading-relaxed mb-8" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
                 From product launches and board retreats to milestone birthdays and intimate weddings, our event team handles every detail — so you can be present for the moments that matter.
@@ -238,7 +238,7 @@ export function Events() {
 
       {/* Wedding CTA */}
       <section className="relative py-32 overflow-hidden" style={{ minHeight: '500px' }}>
-        <img src={IMG_MOUNTAIN} alt="Table Mountain romantic backdrop for weddings" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.4 }} />
+        <img src={IMG_MOUNTAIN} alt="Namib Dunes romantic backdrop for weddings" className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.4 }} />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(10,9,7,0.95) 0%, rgba(10,9,7,0.5) 100%)' }} />
         <div
           ref={weddingRef}
@@ -248,10 +248,10 @@ export function Events() {
           <GoldDivider />
           <SectionLabel>Weddings at Aurora</SectionLabel>
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem, 4vw, 3.5rem)', color: 'var(--cream)', fontWeight: 500, lineHeight: 1.1, marginBottom: '1.5rem', maxWidth: '700px', margin: '0 auto 1.5rem' }}>
-            Table Mountain at your ceremony.<br /><em>The harbour at your dinner.</em>
+            The Namib Dunes at your ceremony.<br /><em>The harbour at your dinner.</em>
           </h2>
           <p className="max-w-xl mx-auto mb-10 leading-relaxed" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
-            From intimate elopements for two to garden celebrations for one hundred and fifty, Aurora's wedding team crafts each occasion around you — with access to the rooftop terrace, grand ballroom, and the full Cape Town backdrop.
+            From intimate elopements for two to garden celebrations for one hundred and fifty, Aurora's wedding team crafts each occasion around you — with access to the rooftop terrace, grand ballroom, and the full Swakopmund backdrop.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <button

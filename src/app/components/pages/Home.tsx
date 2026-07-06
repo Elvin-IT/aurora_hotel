@@ -139,7 +139,7 @@ export function Home() {
       <section className="relative h-screen min-h-[700px] flex items-end" style={{ background: '#0a0907' }}>
         <img
           src={IMG_HERO}
-          alt="Cape Town aerial view showing Table Mountain and V&A Waterfront"
+          alt="Swakopmund aerial view showing Namib Dunes and the historic Waterfront"
           className="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
           style={{ opacity: heroLoaded ? 0.65 : 0 }}
           onLoad={() => setHeroLoaded(true)}
@@ -151,7 +151,7 @@ export function Home() {
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 pb-24 w-full">
           <div className="max-w-3xl">
             <GoldDivider />
-            <SectionLabel>V&A Waterfront · Cape Town</SectionLabel>
+            <SectionLabel>Jetty Area · Swakopmund</SectionLabel>
             <h1
               className="mb-6 leading-[1.05]"
               style={{
@@ -173,7 +173,7 @@ export function Home() {
                 fontSize: 'clamp(1rem, 1.5vw, 1.15rem)',
               }}
             >
-              A design-forward five-star retreat perched above Cape Town's V&A Waterfront, with panoramic views of Table Mountain, the harbour, and the Atlantic horizon.
+              A design-forward five-star retreat perched above Swakopmund's historic Waterfront, with panoramic views of the Namib Dunes, the harbour, and the Atlantic horizon.
             </p>
             <div className="flex flex-wrap gap-4">
               <button
@@ -258,7 +258,7 @@ export function Home() {
             <SplitTextBlock
               label="Rooms & Suites"
               title={<>Spaces designed for<br /><em>restful elevation.</em></>}
-              body="Seventy-two rooms and suites crafted around natural materials — Ethiopian stone, reclaimed timber, woven South African textiles — and calibrated to frame the light of the Cape at every hour."
+              body="Seventy-two rooms and suites crafted around natural materials — Ethiopian stone, reclaimed timber, woven Namibian textiles — and calibrated to frame the light of the desert at every hour."
               cta="View All Rooms"
               onCta={() => navigate('/rooms')}
             />
@@ -296,14 +296,14 @@ export function Home() {
               img={IMG_DINING}
               label="Dining"
               title="Aurora Restaurant"
-              desc="Seasonal coastal menus inspired by South Africa's extraordinary larder."
+              desc="Seasonal coastal menus inspired by Namibia's extraordinary larder."
               to="/dining"
             />
             <TeaserCard
               img={IMG_POOL}
               label="Sky Bar"
               title="Rooftop & Infinity Pool"
-              desc="Sunset cocktails above the harbour with Table Mountain on the horizon."
+              desc="Sunset cocktails above the harbour with the Namib Dunes on the horizon."
               to="/dining"
             />
             <TeaserCard
@@ -317,7 +317,7 @@ export function Home() {
               img={IMG_HARBOR}
               label="Experiences"
               title="Beyond the Hotel"
-              desc="Aurora Concierge builds bespoke Cape Town itineraries around your curiosities."
+              desc="Aurora Concierge builds bespoke Namibian itineraries around your curiosities."
               to="/experiences"
             />
           </div>
@@ -328,7 +328,7 @@ export function Home() {
       <section className="relative py-40 flex items-center overflow-hidden" style={{ minHeight: '600px' }}>
         <img
           src={IMG_POOL}
-          alt="Aurora Skyline rooftop infinity pool overlooking Cape Town at sunset"
+          alt="Aurora Skyline rooftop infinity pool overlooking Swakopmund at sunset"
           className="absolute inset-0 w-full h-full object-cover"
           style={{ opacity: 0.55 }}
         />
@@ -350,7 +350,7 @@ export function Home() {
               The city at your feet, the sky overhead.
             </h2>
             <p className="mb-8 leading-relaxed" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
-              On the 18th floor, our rooftop infinity pool stretches toward the horizon as day dissolves into the Cape evening. Weekend DJs, signature cocktails, and the Atlantic breeze.
+              On the 18th floor, our rooftop infinity pool stretches toward the horizon as day dissolves into the Namibian evening. Weekend DJs, signature cocktails, and the Atlantic breeze.
             </p>
             <button
               onClick={() => navigate('/dining')}
@@ -368,13 +368,13 @@ export function Home() {
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative" style={{ aspectRatio: '4/3' }}>
-              <img src={IMG_EVENTS} alt="Aurora event space with Table Mountain views" className="w-full h-full object-cover" />
+              <img src={IMG_EVENTS} alt="Aurora event space with Namib Dunes views" className="w-full h-full object-cover" />
               <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(10,9,7,0.2), transparent)' }} />
             </div>
             <SplitTextBlock
               label="Meetings & Events"
               title={<>Gather in a setting that<br /><em>inspires.</em></>}
-              body="From intimate board dinners for ten to milestone celebrations for one hundred and fifty — Aurora's flexible venues offer natural light, Table Mountain views, and seamless event support."
+              body="From intimate board dinners for ten to milestone celebrations for one hundred and fifty — Aurora's flexible venues offer natural light, Namib Dunes views, and seamless event support."
               cta="Enquire About Availability"
               onCta={() => navigate('/events')}
             />
@@ -386,7 +386,7 @@ export function Home() {
       <section className="relative flex items-center justify-center text-center overflow-hidden" style={{ minHeight: '520px' }}>
         <img
           src={IMG_MOUNTAIN}
-          alt="Table Mountain aerial view Cape Town"
+          alt="Namib Dunes aerial view Swakopmund"
           className="absolute inset-0 w-full h-full object-cover"
           style={{ opacity: 0.5 }}
         />
@@ -412,7 +412,7 @@ export function Home() {
               lineHeight: 1.1,
             }}
           >
-            Your Cape Town story starts here.
+            Your Namibian story starts here.
           </h2>
           <p className="mb-10 max-w-md mx-auto leading-relaxed" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300 }}>
             Direct bookings receive complimentary room upgrade subject to availability, plus access to exclusive Aurora member rates.
@@ -437,11 +437,11 @@ export function Home() {
 
 /* ── Feature section ─────────────────────────────────── */
 const features = [
-  { icon: <Star size={22} />, title: '72 Rooms & Suites', desc: 'Each room oriented toward the harbour or mountain, finished in natural materials and smart lighting.' },
-  { icon: <Wind size={22} />, title: 'Rooftop Infinity Pool', desc: 'The 18th-floor sky bar and infinity pool with 360° views of Table Mountain and the Atlantic.' },
-  { icon: <Utensils size={22} />, title: 'Fine Dining', desc: 'Aurora Restaurant serves seasonal, coastal-inspired menus paired with exceptional South African wines.' },
+  { icon: <Star size={22} />, title: '72 Rooms & Suites', desc: 'Each room oriented toward the harbour or dunes, finished in natural materials and smart lighting.' },
+  { icon: <Wind size={22} />, title: 'Rooftop Infinity Pool', desc: 'The 18th-floor sky bar and infinity pool with 360° views of the Namib Dunes and the Atlantic.' },
+  { icon: <Utensils size={22} />, title: 'Fine Dining', desc: 'Aurora Restaurant serves seasonal, coastal-inspired menus paired with exceptional Namibian wines.' },
   { icon: <Sparkles size={22} />, title: 'Boutique Spa', desc: 'Harbour-view treatment rooms, a steam sanctuary, couples\' suites, and rooftop sunrise yoga.' },
-  { icon: <Coffee size={22} />, title: 'Aurora Concierge', desc: 'A dedicated team crafting bespoke Cape Town experiences — from private winelands tours to sunrise hikes.' },
+  { icon: <Coffee size={22} />, title: 'Aurora Concierge', desc: 'A dedicated team crafting bespoke Namibian experiences — from private desert excursions to sunrise tours.' },
   { icon: <Wifi size={22} />, title: 'Business Ready', desc: 'Hybrid-capable meeting rooms for 10–150, with seamless AV, custom menus, and dedicated event planners.' },
 ];
 
@@ -463,7 +463,7 @@ function FeatureSection() {
           Designed for those who<br /><em>notice the difference.</em>
         </h2>
         <p className="leading-relaxed" style={{ color: 'var(--cream-muted)', fontFamily: 'var(--font-body)', fontWeight: 300, maxWidth: '480px' }}>
-          Aurora Skyline Hotel was conceived as a love letter to Cape Town — its light, its landscapes, its living culture. Every space reflects this: art by South African artists, cuisine rooted in the Cape's seasons, and service that anticipates without intruding.
+          Aurora Skyline Hotel was conceived as a love letter to Swakopmund — its light, its desert dunes, its living culture. Every space reflects this: art by Namibian artists, cuisine rooted in the Atlantic seasons, and service that anticipates without intruding.
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
